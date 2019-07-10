@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css</title>
+<!--下面这个是第二种方法  创建一个index.css-->
+ <link rel="stylesheet" href="index.css"> 
+
+    <!-- 有两种方法 这是第一种--> <style> 
+    div{
+        width: 500px;
+        height: 300px;
+        background-color: pink;
+         }
+    </style>
+    <style>
+        *{
+            margin: 0;/*定义外边距*/
+            padding: 0;/*定义内边距*/
+        }
+        body{
+            background:#fff;/*背景颜色*/
+        }
+     div{
+        width: 500px;
+        height: 300px;
+        background: pink;  /*填充颜色*/
+        border:1px solid blue; /*边框颜色*/
+    }
+     .box{
+        border:5px solid skyblue;
+     }
+    .box2{
+        color: #fff;
+    }
+    h3{
+        color: #777
+    }
+    #aa{
+        color: tomato;
+    }
+    #bb{
+        color: aqua;
+
+    } 
+    h1{
+        font-weight:normal;
+    }
+    .box{
+        font-weight: 200;
+        
+    }
+    </style>
+
+</head>
+<body>
+         <h2 class=".box2" id="bb">今天好开心！</h2>
+         <h3 id="aa">善良的人！</h3>
+         <h1 class=".box" id="aa">标题</h1> 
+         <div>555554</div> 
+         <h3> 做一个善良快乐的人，在帮助别人时享受快乐，做一个愿意发光发热、能吃亏的人。</h3>
+         <div class="box box2" >5555</div>
+         <h2 class="box"id="bb">屁屁</h2>
+</body>
+</html>
