@@ -5,24 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Dahang</title>
     <style>
         .hh {
+            width: 900px;
+            /*宽度*/
+            height: 500px;
+            /*高度*/
             text-align: center;
+            /*水平居中*/
             /*水平居中*/
             font-size: 30px;
             /*字体大小*/
-            border:3px double skyblue;
+            margin: 0 auto;
+            /* line-height: 500px; */
+            border: 8px double cornflowerblue;
+        }
+
+        .box a:link,
+        .box a:visited {
+            /*a:link ：没有点击链接的时候的样式
+            a : visited : 已经访问过的超链接样式*/
+            color:dodgerblue;
+            /*颜色*/
+            text-decoration: none;
+            /*文本装饰  正常值*/
+
+        }
+        .box a:hover,
+        .box a:active {
+            /*a:hover ：鼠标悬停的时候超链接的样式
+             A：active ：鼠标点击这个超链接且不松动鼠标的超链接样式*/
+            color: orangered;
+            /*颜色*/
+            text-decoration: underline;
+            /*文本装饰  下划线*/
         }
     </style>
 </head>
 
 <body>
-    <div class="hh">
+    <div class="hh box">
         <p>胡大航的项目</p>
         <a href="网上花店/index.html">网上花店</a>
-        <p><a href="春夏秋冬/index.html">春夏秋冬</a></p>
         <p><a href="学院新闻/index.html">学院新闻</a></p>
+        <p><a href="我的爱好/index.html">我的爱好</a></p>
+        <p><a href="春夏秋冬/index.html">春夏秋冬</a></p>
+        
     </div>
 </body>
 
