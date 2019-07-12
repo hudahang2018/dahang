@@ -1,0 +1,114 @@
+/* header begin 开始 */
+*{
+    margin: 0;/*外边距*/
+    padding: 0;/*内边距*/
+}
+/* body{
+    background: pink;
+} */
+.ggl{
+    margin: 0 auto;
+}
+.header{
+    width: 980px;/*宽度*/
+    height: 617px;/*高度*/
+    /* 627-10=617 */
+    padding-top: 10px;/*内边距 距离顶部10像素*/
+    background: url(./images/bg.jpg) no-repeat;/*背景图片  图片路径  no-repeat*/
+    /* margin: 0 auto; */
+}
+.header .nav{
+    width: 980px;/*宽度*/
+    height: 86px;/*高度*/
+    font: 16px "微软雅黑";
+    background: url(./images/nav.jpg) no-repeat center center;/*背景图片  图片路径  no-repeat 居中*/
+}
+.header .nav ul{
+    padding: 40px 0 0 160px;/*上 右 下 左*/
+    list-style: none;/*把点给去掉*/
+}
+.header .nav ul li{
+    float: left;/*浮动  左*/
+    margin-right: 66px;/*外边距距离右边66像素*/
+}
+.header .nav ul .sec{
+    margin-right: 306px;/*外边距距离右边306像素*/
+}
+.header .nav ul li a{
+    color: #685649;/*颜色*/
+    text-decoration: none;/*文本装饰默认正常的*/
+}
+.header .nav ul li a:hover,.header .nav ul li a:active{
+    color: #e40826;/*颜色*/
+    text-decoration: underline;/*文本装饰下划线*/
+}
+/* head end 结束*/
+
+/* news begin开始 */
+.news{
+    overflow: hidden;/*清除浮动 能给出自适应的高度*/
+    width: 980px;/*宽度*/
+    margin: 0 auto;/*居中*/
+    background: url(./images/dongtai.jpg) no-repeat 63px 20px;/*背景颜色 图片路径 不平埔 */
+    padding-top: 140px;/*内边距距离顶部140像素*/
+}
+.news .news_content{
+    width: 284px;/*宽度*/
+    float: left;/*浮动 左*/
+    margin-left: 30px;/*外边距左30像素*/
+}
+.news .news_content h2{
+    font:16px "微软雅黑";/*字体大小 字体样式*/
+    font-weight: bold;/*字体粗细 bold*/
+    /*padding: 17px 0 0 10px;/*综合的 也可以用下面的*/
+     padding-left: 10px;/*内边距左10像素*/
+    height: 50px;/*高度*/
+    line-height: 50px; /*行高*/
+    border-bottom: 1px solid #ddd;/*边框 底部 1宽度 单实线 颜色*/
+}
+
+.news .news_content .one{
+    padding: 10px 0 0 10px;/*内边距 上 右 下 左*/
+    /* text-indent: 2em; */
+    height: 80px;/*高度*/
+    font:12px/20px "微软雅黑";/*字体大小 行高 字体样式*/
+    color: #bbb;/*颜色*/
+}
+/* news end 结束*/
+
+/* yangpian begin 开始*/
+.yangpian{
+    width: 980px;/*图片宽度*/
+    height:442px;/*图片高度 */
+    padding-left: 30px;
+    margin-top: 70px;/*图片上边 距离阴影的距离*/
+    background: url(./images/xinshang.jpg) no-repeat;/*背景图片 图片路径 不平埔*/
+
+}
+.yangpian .tp{
+    margin-left: 60px;/*外边框 左60像素 */
+    margin-top: 170px;/*外边框 顶部170像素*/
+    text-align: center;/*水平居中*/
+    float: left;/*浮动 左*/
+    
+}
+/* yangpian end 结束*/
+/* footer begin 开始*/
+.footer{
+    margin-top: 20px;/*外边距 距离顶部20像素*/
+    height: 80px;/*高度*/
+    background: url(./images/footer_bg.jpg) repeat-x;/*背景图片 图片路径 向X轴平铺*/
+    text-align: center;/*水平居中*/
+    color: white;/*颜色*/
+    line-height: 80px;/*行高*/
+}
+/* footer end 结束*/
+.xf{
+    right: 5%;/*右*/
+    bottom: 5%;/*底*/
+    position: fixed;/*固定定位*/
+    /*固定定位 当用于定位的元素position属性的取值为fixed时，称此定位模式为固定定位。
+    如果只指定了fixed定位属性，并没有设置偏移量，则“原地不动”。*/
+
+}
+
