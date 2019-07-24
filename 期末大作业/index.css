@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "微软雅黑";
+    background:#fff9ed;
+}
+ul li{
+    list-style: none;
+}
+
+.ggl{
+    
+    margin: 0 auto;
+    /* background: pink; */
+}
+.ggl2{
+    margin: 0 auto;
+}
+
+.cl{ clear: both;}
+
+/* header begin */
+.header{
+    width: 100%;
+    background: url(./images/jj.png) repeat-x;
+}
+.header .center{
+    width: 980px;
+}
+.header .center h1{
+    float: left;
+    position: relative;
+    left: -999px;
+}
+.header .center ul{
+    padding-left: 178px;
+    background: url(./images/logogo.png) no-repeat;
+    height: 128px;
+}
+.header .center ul li{
+    float: left;
+   
+}
+.header .center a{
+    display: block;
+    width: 119px;
+    height: 91px;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+
+}
+.header .center a:hover,.header .center a:active{
+    color: red;
+    text-decoration: underline;
+}
+/* header end */
+
+
+/* 导航部分 */
+
+
+
+.header .nav{
+    float: left;
+    list-style: none;
+    /* 87*58 */
+}
+
+.header .nav li{
+    float: left;
+    width: 87px;
+    height: 58px;
+    border-left: 1px solid #252947;
+}
+
+.header .nav li a{
+    display: block;
+    width: 87px;
+    height: 58px;
+    color:#818496;
+    line-height: 58px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header .nav li a:hover{
+    color: #e2e4ed;
+}
+
+.header .nav .current{
+    background: #252947;
+}
+
+.header .nav .last{
+    border-right: 1px solid #252947;
+}
+
+
+
+/* header 结束 */
+
+
+
+/* banner 开始 */
+.banner{
+    position: relative;
+    height: 600px;
+    background: url(./images/paoce.jpg) no-repeat center bottom;
+}
+.banner .dian1{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 120px;
+    height: 12px;
+    margin-left: -60px;
+    cursor: pointer;
+}
+.banner .dian1 ul li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background: #fff;
+    text-indent: -9999em;
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+.banner .dian1 ul .on{
+    background: rgb(255,255,255);
+    opacity: 1;
+}
+/* banner 结束 */
+
+
+
+/* content 开始 */
+.content{
+    overflow: hidden;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1000px;
+    height: 380px;
+}
+
+/* product 开始 */
+
+
+.content .product{
+    height: 230px;
+    width: 997px;
+    margin: 0 auto;
+    /* border: 1px solid #dbe1e7; */
+}
+.content .product ul{
+    width: 997px;
+
+}
+.content .product ul li{
+    float: left;
+    width: 217px;
+    margin-right: 43px;
+}
+.content .product ul .last2{
+    margin-right: 0px;
+}
+.content .product ul li .pro_img img{
+    width: 100%;
+
+}
+.content .product ul li h3{
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.content .product ul li .play{
+    text-align: center;
+}
+.content .product ul li .play a{
+    font: 12px/12px "微软雅黑";
+    text-decoration: none;
+    background: url(./images/sanjiaoxing.png) no-repeat right center;
+    color: #38b774;
+    padding-right: 10px;
+}
+/* content 结束 */
+
+/* product 结束 */
+
+/* 两点一线 开始 */
+.ggl .hd{
+    position: relative;
+    border-top: 1px solid #afbecf ;
+    clear: both;
+    width: 997px;
+    margin: 0 auto;
+    height: 10px;
+    top:50px;
+    
+
+}
+ .ggl .hd ul .on{
+    background: royalblue;
+    opacity: 1;
+}
+.ggl .hd ul li{
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-left:10px;
+    border-radius: 6px;
+    background:#afbecf;
+    opacity: 0.5;
+    overflow: hidden;
+    text-indent: -9999px;
+    cursor: pointer;
+
+}
+.ggl .hd ul{
+    width: 50px;
+    padding-left: 0px;
+    height: 11px;
+    margin: -6px auto 0 auto;
+    background: #FFF9ED;
+}
+/* 两点一线 结束 */
+
+
+
+/* 文字 */
+.box {
+
+    margin-left: 445px;
+    position: relative;
+   padding-right: 400px;
+   padding-bottom: 50px;
+    /* height: 300px; */
+}
+
+.box ul {
+    
+    list-style: none;
+
+}
+
+.box ul li {
+    overflow: hidden;
+    padding: 0 0 0 10px;
+    font: 14px/26px "宋体";
+
+}
+
+.box ul a {
+    text-align: center;
+    color: #122e67;
+    text-decoration: none;
+}
+
+.box ul li a:hover,
+.box ul li a:active {
+    color: gray;
+    text-decoration: underline;
+}
+/* .box img{
+    margin-left: 400px;
+    margin-top: 80px;
+} */
+
+
+#contents div#featured {
+	/* background: url(./images/aa2.jpg) no-repeat center top; */
+	/* width: 100%; */
+	margin-bottom: 60px;
+	padding: 30px 0 24px;
+}
+#featured {
+    margin-top: 50px;
+    width: 960px;
+    margin: 0 auto;
+}
+#featured ul {
+	display: inline-block;
+	list-style: none;
+	width: 960px;
+	margin: 0;
+	padding: 0;
+}
+#featured ul li {
+	float: left;
+	width: 300px;
+	margin: 0px 10px;
+}
+#featured p {
+    margin-right: 100px;
+	padding: 0;
+	text-align: center;
+}
+
+/* 尾部开始 */
+
+.weibu{
+    margin-top: 150px;
+    height: 128px;
+    width: 100%;
+    clear: both;
+    background: url(./images/tiao.png) repeat-x;
+}/* 尾部开始 */
+
+.footer p{
+    height: 30px;
+    color: #6C6E7E;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.footer div{
+    width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+.footer div p img{ 
+    width: 36px;
+    margin-bottom: -22px;
+    cursor: pointer;
+}
+.footer div p a{
+    text-decoration: none;
+    color: #6C6E7E;
+}
+.weibu .dds{
+    margin-left: 26%;
+
+}
+.weibu img{
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+/* 尾部结束 */
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
